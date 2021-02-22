@@ -21,14 +21,20 @@ img {
     background-size: cover;
     object-fit: cover;
     overflow: hidden;
+    display: block;
 }
 .row-bg {
     min-height: 100vh;
     min-width: 100vw;
-    background-image: url("../flatsome-child//img//bg-1.jpg");
+    background-image: url("../flatsome-child/img//bg-1.jpg");
+    background-position: 50% 50%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.row-bg.auto {
+    min-height: auto;
+    background-image: url("../flatsome-child/img/bg-3/bg-3.jpg");
 }
 .row-bg .box-image img {
     width: auto;
@@ -42,7 +48,40 @@ img {
     font-size: 20px;
 }
 
+.img-bg {
+    position: relative;
+    background-image: url("../flatsome-child/img/bg-2/group15091.png");
+    background-size: cover;
+    background-position: 50% 50%;
 
+}
+.img-bg .img-inner img {
+    width: 43%;
+    height: 49%;
+    margin: auto;
+}
+
+.text-about * {
+    color: white;
+
+}
+
+.text-about-bot {
+    padding-left: 30px;
+    border-left: 4px solid #fed141;
+    font-style: italic;
+}
+h2 {
+    color: #fed141;
+    padding: 20px 0;
+}
+h3 {
+    color: white;
+}
+.bg-color {
+    padding: 15px 0;
+    background: rgb(249, 211, 116);
+}
 @media only screen and (max-width: 48em) {
 /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
