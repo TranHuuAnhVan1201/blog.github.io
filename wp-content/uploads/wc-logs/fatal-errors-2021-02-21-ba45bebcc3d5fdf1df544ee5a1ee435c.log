@@ -1,0 +1,2 @@
+2021-02-21T17:18:31+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 2621440 bytes) in C:\xampp\htdocs\blog\wp-includes\widgets\class-wp-widget-meta.php on line 87
+
